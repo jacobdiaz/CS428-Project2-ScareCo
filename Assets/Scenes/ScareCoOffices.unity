@@ -2976,6 +2976,51 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1772443932}
     m_Modifications:
+    - target: {fileID: 1320821347721610622, guid: 702caa48c730e92469a1c5144fd8ed46,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 1320821347721610622, guid: 702caa48c730e92469a1c5144fd8ed46,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1320821347721610622, guid: 702caa48c730e92469a1c5144fd8ed46,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1320821347721610622, guid: 702caa48c730e92469a1c5144fd8ed46,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.6532815
+      objectReference: {fileID: 0}
+    - target: {fileID: 1320821347721610622, guid: 702caa48c730e92469a1c5144fd8ed46,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.6532815
+      objectReference: {fileID: 0}
+    - target: {fileID: 1320821347721610622, guid: 702caa48c730e92469a1c5144fd8ed46,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.27059805
+      objectReference: {fileID: 0}
+    - target: {fileID: 1320821347721610622, guid: 702caa48c730e92469a1c5144fd8ed46,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.27059805
+      objectReference: {fileID: 0}
+    - target: {fileID: 1320821347721610622, guid: 702caa48c730e92469a1c5144fd8ed46,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 1320821347721610622, guid: 702caa48c730e92469a1c5144fd8ed46,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 45
+      objectReference: {fileID: 0}
     - target: {fileID: 2857845961663347754, guid: 702caa48c730e92469a1c5144fd8ed46,
         type: 3}
       propertyPath: m_RootOrder
@@ -3034,7 +3079,7 @@ PrefabInstance:
     - target: {fileID: 3607323991379943426, guid: 702caa48c730e92469a1c5144fd8ed46,
         type: 3}
       propertyPath: grabOffset
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5701689818747509894, guid: 702caa48c730e92469a1c5144fd8ed46,
         type: 3}
@@ -13780,7 +13825,7 @@ GameObject:
   - component: {fileID: 807767989}
   - component: {fileID: 807767988}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: swird
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
