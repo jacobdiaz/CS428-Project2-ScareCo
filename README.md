@@ -1,6 +1,4 @@
----
-sidebar_position: 1
----
+
 
 <!-- introduction and description of how to use your application and the things you can do with it. What is the phobia you are working with? How would this space help a person work through that phobia?-->
 
