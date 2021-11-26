@@ -614,6 +614,7 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1282690514}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:Assets/Scenes/circusScene.unity
 --- !u!1 &215495269
 GameObject:
   m_ObjectHideFlags: 0
@@ -674,6 +675,8 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.5, y: 2, z: 2}
   m_Center: {x: 3, y: 0, z: 0}
+=======
+>>>>>>> d5424fbb14af37e2c40f2ced016379ee68a06676:Assets/Scenes/circusScene.unity
 --- !u!1 &217112389
 GameObject:
   m_ObjectHideFlags: 0
@@ -1201,6 +1204,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD:Assets/Scenes/circusScene.unity
   serializedVersion: 6
   m_Component:
   - component: {fileID: 441553853}
@@ -1209,13 +1213,107 @@ GameObject:
   - component: {fileID: 441553854}
   m_Layer: 0
   m_Name: Text (TMP)
+=======
+--- !u!1 &452910958
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 452910959}
+  - component: {fileID: 452910960}
+  m_Layer: 0
+  m_Name: Area Light
+>>>>>>> d5424fbb14af37e2c40f2ced016379ee68a06676:Assets/Scenes/circusScene.unity
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD:Assets/Scenes/circusScene.unity
 --- !u!224 &441553853
 RectTransform:
+=======
+--- !u!4 &452910959
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 452910958}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 2.2090595, y: 0.53, z: -0.04}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1290877562}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!108 &452910960
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 452910958}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 2
+  m_Shape: 0
+  m_Color: {r: 0.9818833, g: 1, b: 0, a: 1}
+  m_Intensity: 4
+  m_Range: 3
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 1
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 2
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1.5, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!1001 &486638770
+PrefabInstance:
+>>>>>>> d5424fbb14af37e2c40f2ced016379ee68a06676:Assets/Scenes/circusScene.unity
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1642,11 +1740,16 @@ Transform:
   - {fileID: 1048597264}
   - {fileID: 1252607775}
   - {fileID: 229848591}
+<<<<<<< HEAD:Assets/Scenes/circusScene.unity
   - {fileID: 1290877562}
   - {fileID: 215495270}
   - {fileID: 9877103}
   m_Father: {fileID: 0}
   m_RootOrder: 9
+=======
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+>>>>>>> d5424fbb14af37e2c40f2ced016379ee68a06676:Assets/Scenes/circusScene.unity
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &554330431
 GameObject:
@@ -2250,6 +2353,102 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &723210119
+<<<<<<< HEAD:Assets/Scenes/circusScene.unity
+=======
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 723210123}
+  - component: {fileID: 723210122}
+  - component: {fileID: 723210121}
+  - component: {fileID: 723210120}
+  m_Layer: 0
+  m_Name: Wall
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &723210120
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 723210119}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &723210121
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 723210119}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 837e40f9e270246b2852f47a6fa11e69, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &723210122
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 723210119}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &723210123
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 723210119}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.41, y: 1.1241821, z: 8.92}
+  m_LocalScale: {x: 0.6, y: 6, z: 8}
+  m_Children: []
+  m_Father: {fileID: 775950231}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &732988045
+>>>>>>> d5424fbb14af37e2c40f2ced016379ee68a06676:Assets/Scenes/circusScene.unity
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2586,6 +2785,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 52f87534fdefc6b47aadeae3a66454d8, type: 3}
+<<<<<<< HEAD:Assets/Scenes/circusScene.unity
 --- !u!1 &806766966
 GameObject:
   m_ObjectHideFlags: 0
@@ -2855,6 +3055,8 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+=======
+>>>>>>> d5424fbb14af37e2c40f2ced016379ee68a06676:Assets/Scenes/circusScene.unity
 --- !u!1 &815442743
 GameObject:
   m_ObjectHideFlags: 0
@@ -2943,7 +3145,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 815442743}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+<<<<<<< HEAD:Assets/Scenes/circusScene.unity
   m_LocalPosition: {x: -0.65821123, y: -1.4972203, z: 4.37}
+=======
+  m_LocalPosition: {x: -0.65821123, y: -1.4972203, z: 3.843976}
+>>>>>>> d5424fbb14af37e2c40f2ced016379ee68a06676:Assets/Scenes/circusScene.unity
   m_LocalScale: {x: 0.2, y: 2, z: 1.2}
   m_Children: []
   m_Father: {fileID: 530917312}
@@ -3342,6 +3548,43 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 8b6302bdc05eb6c4a94d8029b1a93aa7, type: 3}
 --- !u!1 &1048597263
 GameObject:
+<<<<<<< HEAD:Assets/Scenes/circusScene.unity
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1048597264}
+  m_Layer: 0
+  m_Name: Room1-Walls
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1048597264
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1048597263}
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -4.142211, y: 0.25859764, z: 3.3239765}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1349152846}
+  - {fileID: 1494444677}
+  - {fileID: 1411229338}
+  - {fileID: 1688338622}
+  m_Father: {fileID: 530917312}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!1001 &1052311541
+PrefabInstance:
+=======
+>>>>>>> d5424fbb14af37e2c40f2ced016379ee68a06676:Assets/Scenes/circusScene.unity
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -3742,8 +3985,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1143534646}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+<<<<<<< HEAD:Assets/Scenes/circusScene.unity
   m_LocalPosition: {x: 1.64, y: 0.81, z: -0}
   m_LocalScale: {x: 1.4, y: 2, z: 1.4}
+=======
+  m_LocalPosition: {x: 1.64, y: 0.28, z: -0}
+  m_LocalScale: {x: 1.4, y: 1.2, z: 1.4}
+>>>>>>> d5424fbb14af37e2c40f2ced016379ee68a06676:Assets/Scenes/circusScene.unity
   m_Children: []
   m_Father: {fileID: 1290877562}
   m_RootOrder: 1
@@ -3809,6 +4057,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1143534646}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+<<<<<<< HEAD:Assets/Scenes/circusScene.unity
 --- !u!1 &1150802787
 GameObject:
   m_ObjectHideFlags: 0
@@ -3903,6 +4152,8 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1150802787}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+=======
+>>>>>>> d5424fbb14af37e2c40f2ced016379ee68a06676:Assets/Scenes/circusScene.unity
 --- !u!1 &1214539083
 GameObject:
   m_ObjectHideFlags: 0
@@ -4595,13 +4846,19 @@ GameObject:
   - component: {fileID: 1290877561}
   - component: {fileID: 1290877560}
   m_Layer: 0
+<<<<<<< HEAD:Assets/Scenes/circusScene.unity
   m_Name: SceneLoaderTiny
+=======
+  m_Name: SceneLoader
+>>>>>>> d5424fbb14af37e2c40f2ced016379ee68a06676:Assets/Scenes/circusScene.unity
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!114 &1290877560
+<<<<<<< HEAD:Assets/Scenes/circusScene.unity
+=======
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4613,6 +4870,50 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cf2035a48ccf439f8cfec8f971e3b1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  loadLevel: smallCircScene
+--- !u!65 &1290877561
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1290877559}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.5, y: 2, z: 2}
+  m_Center: {x: 3, y: 0, z: 0}
+--- !u!4 &1290877562
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1290877559}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.82, y: -0.51, z: 8.64}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 452910959}
+  - {fileID: 1143534647}
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1343489196 stripped
+>>>>>>> d5424fbb14af37e2c40f2ced016379ee68a06676:Assets/Scenes/circusScene.unity
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1290877559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5cf2035a48ccf439f8cfec8f971e3b1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+<<<<<<< HEAD:Assets/Scenes/circusScene.unity
   loadLevel: smallCircScene
 --- !u!65 &1290877561
 BoxCollider:
@@ -4655,6 +4956,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f374290a390ec5f46882b6c06f914834, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+=======
+>>>>>>> d5424fbb14af37e2c40f2ced016379ee68a06676:Assets/Scenes/circusScene.unity
 --- !u!1 &1349152845
 GameObject:
   m_ObjectHideFlags: 0
@@ -4822,6 +5125,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7cda7043fe8125d47be5d2a13ddd11a5, type: 3}
+<<<<<<< HEAD:Assets/Scenes/circusScene.unity
 --- !u!1 &1409865992
 GameObject:
   m_ObjectHideFlags: 0
@@ -4915,6 +5219,8 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1409865992}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+=======
+>>>>>>> d5424fbb14af37e2c40f2ced016379ee68a06676:Assets/Scenes/circusScene.unity
 --- !u!4 &1410081294 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4250434656056687920, guid: d9aebb685c6b642bf9a1211268f81107,
@@ -5026,6 +5332,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1fd299fedf620074b8e4ce0978a7f425, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD:Assets/Scenes/circusScene.unity
 --- !u!1 &1479713342
 GameObject:
   m_ObjectHideFlags: 0
@@ -5058,6 +5365,8 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> d5424fbb14af37e2c40f2ced016379ee68a06676:Assets/Scenes/circusScene.unity
 --- !u!1 &1494444676
 GameObject:
   m_ObjectHideFlags: 0
@@ -5085,8 +5394,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1494444676}
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+<<<<<<< HEAD:Assets/Scenes/circusScene.unity
   m_LocalPosition: {x: -1.83, y: 1.1241821, z: 11.3}
   m_LocalScale: {x: 0.020000001, y: 6, z: 8}
+=======
+  m_LocalPosition: {x: -0.019, y: 1.1241821, z: 11.304}
+  m_LocalScale: {x: 0.020000001, y: 6, z: 6}
+>>>>>>> d5424fbb14af37e2c40f2ced016379ee68a06676:Assets/Scenes/circusScene.unity
   m_Children: []
   m_Father: {fileID: 1048597264}
   m_RootOrder: 1
@@ -5417,6 +5731,192 @@ BoxCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
+<<<<<<< HEAD:Assets/Scenes/circusScene.unity
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1688338624
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1688338621}
+  m_Enabled: 1
+=======
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a11803ae5247db04b8ba76bdf0e5c67d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1634790253 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8762128706450136148, guid: 52f87534fdefc6b47aadeae3a66454d8,
+    type: 3}
+  m_PrefabInstance: {fileID: 803555711}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1637901054 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3013476052725209540, guid: 319c9c4cb939912429c7786a67e40f0d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1914484448}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34c0cb8bdc24787439e43b7f145ac31c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1638493637
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1638493638}
+  - component: {fileID: 1638493641}
+  - component: {fileID: 1638493640}
+  - component: {fileID: 1638493639}
+  m_Layer: 0
+  m_Name: Carpet
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1638493638
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1638493637}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.16, y: -1.7585976, z: 7.3}
+  m_LocalScale: {x: 1.2, y: 1.5, z: 1}
+  m_Children: []
+  m_Father: {fileID: 229848591}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!64 &1638493639
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1638493637}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &1638493640
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1638493637}
+  m_Enabled: 1
+>>>>>>> d5424fbb14af37e2c40f2ced016379ee68a06676:Assets/Scenes/circusScene.unity
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 837e40f9e270246b2852f47a6fa11e69, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+<<<<<<< HEAD:Assets/Scenes/circusScene.unity
+--- !u!33 &1688338625
+=======
+--- !u!33 &1638493641
+>>>>>>> d5424fbb14af37e2c40f2ced016379ee68a06676:Assets/Scenes/circusScene.unity
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+<<<<<<< HEAD:Assets/Scenes/circusScene.unity
+  m_PrefabAsset: {fileID: 0}
+=======
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1638493637}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1678737475 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4943030592125289376, guid: d9aebb685c6b642bf9a1211268f81107,
+    type: 3}
+  m_PrefabInstance: {fileID: 681844357}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1688338621
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1688338622}
+  - component: {fileID: 1688338625}
+  - component: {fileID: 1688338624}
+  - component: {fileID: 1688338623}
+  m_Layer: 0
+  m_Name: Wall (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1688338622
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1688338621}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.201, y: 1.1241821, z: 9.231}
+  m_LocalScale: {x: 0.02, y: 6, z: 8}
+  m_Children: []
+  m_Father: {fileID: 1048597264}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1688338623
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1688338621}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -5465,6 +5965,7 @@ MeshFilter:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+>>>>>>> d5424fbb14af37e2c40f2ced016379ee68a06676:Assets/Scenes/circusScene.unity
   m_GameObject: {fileID: 1688338621}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1773271842
@@ -5866,6 +6367,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 319c9c4cb939912429c7786a67e40f0d, type: 3}
+<<<<<<< HEAD:Assets/Scenes/circusScene.unity
 --- !u!1 &1974108834
 GameObject:
   m_ObjectHideFlags: 0
@@ -5960,6 +6462,8 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1974108834}
   m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+=======
+>>>>>>> d5424fbb14af37e2c40f2ced016379ee68a06676:Assets/Scenes/circusScene.unity
 --- !u!1 &1986323032
 GameObject:
   m_ObjectHideFlags: 0
@@ -6059,6 +6563,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7cda7043fe8125d47be5d2a13ddd11a5, type: 3}
+<<<<<<< HEAD:Assets/Scenes/circusScene.unity
 --- !u!1 &2005748808
 GameObject:
   m_ObjectHideFlags: 0
@@ -6091,6 +6596,8 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> d5424fbb14af37e2c40f2ced016379ee68a06676:Assets/Scenes/circusScene.unity
 --- !u!1 &2032344023 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5212993481812903303, guid: d9aebb685c6b642bf9a1211268f81107,
